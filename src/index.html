@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Заголовок страницы</title>
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg" />
+    <title>Filmoteka</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -11,11 +12,25 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
 
+  <body data-lockScroll>
+    <include src="./partials/header.html"></include>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <div class="hide-dizzy dizzy"></div>
+    <main>
+      <div class="main-container">
+        <ul class="main-container-films"></ul>
+        <h3 class="container-empty__title">Let's go to search a movie! ;)</h3>
+        <img class="container-empty__image" src="./images/movie.jpg" alt="" />
+      </div>
+
+      <include src="./partials/modalMovie.html"></include>
+      <include src="./partials/our-team-modal.html"></include>
+    </main>
+    <footer>
+      <include src="./partials/footer.html"></include>
+    </footer>
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
-    <script src="./index.js"></script>
+    <script src="./index.js "></script>
   </body>
 </html>

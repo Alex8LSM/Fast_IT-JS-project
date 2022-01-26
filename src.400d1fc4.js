@@ -103,4 +103,4 @@ const t=document.querySelector(".js-backdrop");function e(t){t.classList.contain
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=require("./js/header.js");require("./js/our-team-modal"),require("./js/fetchTrendyMovie"),require("./js/modalMovie"),require("./js/searchMovies");var r=require("./js/upButton"),s=u(require("./js/spiner"));function u(e){return e&&e.__esModule?e:{default:e}}require("./js/myLibrary.js"),require("./js/localStorage"),(0,e.headerJS)(),(0,r.createUpBtn)(),(0,s.default)();
 },{"./sass/main.scss":"clu1","./js/header.js":"cGsR","./js/our-team-modal":"TmFP","./js/fetchTrendyMovie":"J2Ie","./js/modalMovie":"MbNB","./js/searchMovies":"KyDk","./js/upButton":"FT6E","./js/spiner":"eYPI","./js/myLibrary.js":"EZhS","./js/localStorage":"nnQC"}]},{},["Focm"], null)
-//# sourceMappingURL=/Fast_IT-JS-project/src.f109de31.js.map
+//# sourceMappingURL=/Fast_IT-JS-project/src.400d1fc4.js.map
